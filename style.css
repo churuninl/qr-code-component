@@ -29,11 +29,11 @@ body {
 
 .container{
     background-color: var(--white);
-    width: calc(0.19*var(--desktop-width));
+    width: calc(0.24*var(--desktop-width)); /*0.19*/
     text-align: center;
     padding: 1rem;
     border-radius: 1.2rem;
-    box-shadow: 0 0px 10px rgb(203, 203, 203);
+    box-shadow: 0 7px 10px rgb(203, 203, 203);
 }
 
 .container img {
@@ -42,13 +42,13 @@ body {
 }
 
 .container h1 {
-    font-size: 1.35rem;
+    font-size: 1.7rem; /*1.35rem*/
     font-weight: 700;
     color: var(--darkBlue);
 }
 
 .container p {
-    font-size: 0.9375rem; /*15px*/
+    font-size: 1.15rem; /*0.9375rem=15px*/
     font-weight: 400;
     color: var(--grayishBlue);
     padding: 0 0.625rem;
