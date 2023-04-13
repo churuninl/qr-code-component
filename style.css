@@ -29,7 +29,7 @@ body {
 
 .container{
     background-color: var(--white);
-    width: calc(0.20*var(--desktop-width)); /*0.19*/
+    width: calc(0.20*var(--desktop-width)); 
     text-align: center;
     padding: 1rem;
     border-radius: 1.2rem;
@@ -42,13 +42,13 @@ body {
 }
 
 .container h1 {
-    font-size: 1.4rem; /*1.35rem*/
+    font-size: 1.4rem; 
     font-weight: 700;
     color: var(--darkBlue);
 }
 
 .container p {
-    font-size: 1rem; /*0.9375rem=15px*/
+    font-size: 1rem; 
     font-weight: 400;
     color: var(--grayishBlue);
     padding: 0 0.625rem;
